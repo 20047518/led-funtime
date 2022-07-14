@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="[gR6WL`:Fm,kj_~52]ze">Button_A</variable><variable id="LIDA?56B`hvg^P9ZC.-G">Melody1</variable><variable id="u5cR^)`gCO))xApU~)5H">Melody3</variable><variable id="yxd3+w/!V.PHRt`LeZA1">Melody2</variable></variables><block type="pxt-on-start" id="#|2mu,rf8$((+eT}!qpD" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="/MbB`Z6r(c`@|%nEKct|"><field name="VAR" id="[gR6WL`:Fm,kj_~52]ze">Button_A</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_boolean" id="$]rra,=dX?{Hm+4xkPxr"><field name="BOOL">TRUE</field></block></value><next><block type="device_print_message" id="zPc~)ziD8yw]TseN8qeD"><value name="text"><shadow type="text" id="i#pfD8C4eN%c-GHU]XKJ"><field name="TEXT">Hello!</field></shadow></value></block></next></block></statement></block><block type="device_forever" id="=MLlIIC-2j!~R0L1-+IW" x="437" y="-18"></block><block type="device_button_event" id="(Qupv8!VYWuFBaY43dyY" x="-16" y="382"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_if" id="m^$p:K0WO[^/(xn^*ozV"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="qeoaXF-g@.AvNqv9LDg0"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="}|*H1Dvl@Xrs^U|sJQuB"><field name="VAR" id="[gR6WL`:Fm,kj_~52]ze">Button_A</field></block></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_boolean" id="0$WXG],U1F_bPFUK$zpJ"><field name="BOOL">TRUE</field></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="7v6cpa~/E|g|PL2gB!X9"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="/9y;kF~.0@RbO3H#])^*"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="vS{-N;WSAgx[~ULdRWH#"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="variables_set" id="=:JUC[VQ#%`H#pgR290q"><field name="VAR" id="[gR6WL`:Fm,kj_~52]ze">Button_A</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_boolean" id="OFmUB0+~{Bi2b;!dW5e["><field name="BOOL">FALSE</field></block></value></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="NY,?`%E3?_u4k/S}*dzd"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="ZJBoyoPs9_R[!}C|95N{"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="_]/sY_OAY6O=0mXWw(G0"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="variables_set" id="x^WJ/EElAvJT1]]K:e^0"><field name="VAR" id="[gR6WL`:Fm,kj_~52]ze">Button_A</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_boolean" id="57iEQ+utHcd0~IJ7,mP-"><field name="BOOL">TRUE</field></block></value></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="=SCp6p4]+!#svxgir5ld" x="336" y="491"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="controls_repeat_ext" id="lk-OaVg}m4b(T8(/w!xt"><value name="TIMES"><shadow type="math_whole_number" id="c6j:+7U]6s6lLezKb6YW"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="basic_show_icon" id="#zM,LgD`zIRI1{ZD^^10"><field name="i">IconNames.SmallHeart</field><next><block type="basic_show_icon" id="il2,~CfzzgNK0[PGkQLI"><field name="i">IconNames.Heart</field></block></next></block></statement></block></statement></block></xml>
